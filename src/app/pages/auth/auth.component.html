@@ -1,0 +1,15 @@
+<!-- <ng-container *ngIf="authService.user$ | async as user">
+  <button (click)="authService.signout()">signout</button>
+
+  <button (click)="familyService.createFamily(user.uid)">create family</button>
+
+  <button (click)="familyService.getFamily(user.uid)">showFams</button>
+</ng-container> -->
+
+<div class="container">
+  <div class="image">
+    <img src="../../../assets/images/baby.svg" />
+  </div>
+
+  <button (click)="authService.signInWithgoogle()">Login google</button>
+</div>
