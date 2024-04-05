@@ -1,12 +1,3 @@
 <ng-container *ngIf="user$ | async as user">
-  <div class="container">
-    <ng-container> </ng-container>
-    <button (click)="familyService.leave(family!.id, user.uid)">
-      Leave family
-    </button>
-    <button (click)="familyService.createFamily(user.uid)">
-      create family
-    </button>
-    <button>join family</button>
-  </div>
+  <div class="container"></div>
 </ng-container>
